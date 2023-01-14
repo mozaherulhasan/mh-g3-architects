@@ -102,3 +102,21 @@ margin: 15px;
     text-align: center;
     padding: 15px;
 }
+
+
+.spon-heading{
+    text-align: center;
+}
+.sponspors{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 70px;
+}
+.sponspor{
+    padding: 10px 30px;
+    
+}
+
+.footer-section{
+    text-align: center;
+}
