@@ -1,0 +1,19 @@
+/* common styles */
+body {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.container{
+   
+}
+.banner-image img{
+}
