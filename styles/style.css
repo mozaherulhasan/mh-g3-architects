@@ -269,7 +269,8 @@ input {
     .nav-list,
     .banner-image,
     .features,
-    .experience-items{
+    .experience-items,
+    .sponspors{
         flex-direction: column;
 }
 .banner-image img{
@@ -302,13 +303,27 @@ input {
 .image-architect img {
     width: 98%;
 }
+.facts{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
-
-
-
-.fact-section,
-.sponspors-section,
-.contact,
-.footer-section {
-    display: none;
+.fact-section{
+    margin: 30px 20px;
+}
+.sponspors-section {
+    margin: 40px 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 10px;
+    border: 0;
+    width: 80%;
+    padding: 5px 10px;
+}
+.footer-section{
+    padding: 5px;
+}
 }
