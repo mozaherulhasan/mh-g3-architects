@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* nav style */
+/* nav styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ nav {
     gap: 25px;
 }
 
-/* banner section */
+/* banner styles */
 .container {}
 
 .banner-section {
@@ -47,76 +47,136 @@ nav {
     border: none;
     border-radius: 5px;
 }
-
-.features{
+/* features styles */
+.features {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px 90px;
 }
-.feature-teams{
+
+.feature-teams {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.feature-team img{
+
+.feature-team img {
     margin: 12px;
     width: 95%;
 }
-.feature-details{
+
+.feature-details {
     width: 50%;
-padding: 10px 20px;
+    padding: 10px 20px;
 }
 
-.experience-items{
+/* experience styles */
+
+.experience-items {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 60px 80px;
-    gap: 30px;
 }
-.item{
-background-color: white;
-padding: 5px;
-margin: 15px;
-}
-.image-architect{
+
+.items {
+    width: 50%;
 
 }
 
-.experience-btn{
+.item {
+    background-color: white;
+    padding: 10px;
+    margin: 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.item h3{
+    margin: 0;
+}
+.item p, .item-top p{
+    font-size: 12px;
+}
+.item-top {
+    padding: 10px;
+    margin: 25px;
+    margin-top: 0;
+}
+.item-top h2{
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+}
+
+.image-architect {
+    width: 50%;
+}
+.image-architect img {
+    width: 98%;
+}
+
+
+.experience-btn {
     background-color: #FF900E;
     color: white;
     border: none;
     border-radius: 5px;
+    padding: 30px;
+    margin-top: -100px;
+}
+.experience-btn h1{
+    font-size: 30px;
+    margin: 0;
 }
 
-
-.facts{
+/* facts styles */
+.fact-section{
+    margin: 60px 100px;
+}
+.fact-details{
+    margin-bottom: 50px;
+}
+.facts {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.fact{
-    border: solid 2px #FF900E;
+.fact {
+    border: solid 1px #FF900E;
     text-align: center;
     padding: 15px;
+    width: 100px;
 }
+.fact:hover{
+    background-color: #FF900E;
+    color: white;
+    border: solid 1px black;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+.fact-number {
+    margin: 0;
+}
+.fact-name {
+    font-size: 10px;
+    margin: 0;
+}
+/* sponspors styles */
 
-
-.spon-heading{
+.spon-heading {
     text-align: center;
 }
-.sponspors{
+
+.sponspors {
     display: flex;
     justify-content: space-around;
     margin: 40px 70px;
 }
-.sponspor{
+
+.sponspor {
     padding: 10px 30px;
-    
+
 }
 
-.footer-section{
+/* footer styles */
+.footer-section {
     text-align: center;
 }
