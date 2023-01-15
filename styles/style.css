@@ -92,8 +92,6 @@ nav {
 
 .items {
     width: 50%;
-
-
 }
 
 .item {
@@ -270,7 +268,8 @@ input {
     nav,
     .nav-list,
     .banner-image,
-    .features{
+    .features,
+    .experience-items{
         flex-direction: column;
 }
 .banner-image img{
@@ -287,10 +286,26 @@ input {
 .feature-details{
     width: 90%;
 }
+.experience-items{
+    padding: 10px 0;
+    margin: 30px 20px;
+}
+.items {
+    width: 100%;
+}
+.item{
+    margin: 20px 25px;
+}
+.image-architect {
+    width: 100%;
+}
+.image-architect img {
+    width: 98%;
+}
 }
 
 
-.experience-section,
+
 .fact-section,
 .sponspors-section,
 .contact,
